@@ -158,16 +158,16 @@
 	                  return;
 	              } 
 	          }
-	          /*This section controlls the obstacal hieght and width*/
+	          /*This section controls the obstacle height and width*/
 	          myGameArea.clear();
 	          myGameArea.frameNo += 1;
-	          /*controls the rate at witch obstacals spawn*/
-	          if (myGameArea.frameNo == 1 || everyinterval(200)) {
+	          /*controls the rate at which obstacles spawn*/
+	          if (myGameArea.frameNo == 1 || everyinterval(300)) {
 	              x = myGameArea.canvas.width;
 	              minHeight = 20;
 	              maxHeight = 200;
 	              height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
-	              minGap = 70;
+	              minGap = 80;
 	              maxGap = 200;
 	              gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
 	              myObstacles.push(new component(20, height, "white", x, 2));
