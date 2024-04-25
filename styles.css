@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&display=swap');
+body{
+	font-family: "Caveat", sans-serif;
+	margin: 0;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+	font-size: 20px;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+h2{
+	color: blue;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+main .fa{
+	font-size: 5em;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: black;
+}
+
+bold{
+	display: block;
+	background-color: blue;
+}
+	
+.resume{
+	max-width: 600px;
+}
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color:white;
+}
+nav a:visited{
+	color:white;
+}
+nav a:hover{
+	color:red;
+}
+nav a:active{
+	color:green;
+}
+#home-hero{
+	background-image: url(images/abstract.png);
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home-hero h1{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	padding: 50px 0;
+	margin: 0;
+	font-size: 60px;
+}
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+/*the code used below is from the creator: thelaazyguy*/
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link_wrapper{
+  position: relative;
+}
+
+footer a{
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+  margin: 0 auto;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  border: 5px solid transparent;
+  position: center;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 20px;
+	
+	
+	background-color: #0379c4;
+	color: black;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.footer1000{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.footer-bottom{
+	background-color: black;
+	color: white;
+	max-width: 100%;
+}
+
+nav{
+	border-top: 4px #053059 solid;
+
+	padding: 1px;
+	text-align: center;
+	background-color: #0379c4;
+}
+
+footer a:hover{
+  width: 200px;
+  border: 3px solid yellow;
+  background: transparent;
+  color: yellow;
+}
+
+footer a:hover + .icon{
+  border: 3px solid yellow;
+  right: -25%;
+}
+
+
+button{
+	background-color: yellow;
+	margin: 0 auto;
+}
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+bold{
+  display: block;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #0379c4;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+}
+
+bold:hover{
+  width: 250px;
+  border: 3px solid red;
+  background: #0379c4;
+  color: yellow;
+}
+
+bold:hover + .icon{
+  border: 3px solid yellow;
+  right: -25%;
+}
